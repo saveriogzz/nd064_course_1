@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: nginx
-    tag: alpine
+    tag: stable-alpine
   name: nginx-alpine
   namespace: demo
 spec:
@@ -11,7 +11,7 @@ spec:
   selector:
     matchLabels:
       app: nginx
-      tag: alpine
+      tag: stable-alpine
   strategy:
     rollingUpdate:
       maxSurge: 25%
