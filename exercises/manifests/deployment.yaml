@@ -21,9 +21,9 @@ spec:
     metadata:
       labels:
         app: nginx
-        tag: alpine
+        tag: stable-alpine
     spec:
       containers:
-      - image: nginx:alpine
+      - image: nginx:stable-alpine
         imagePullPolicy: IfNotPresent
         name: nginx-alpine
