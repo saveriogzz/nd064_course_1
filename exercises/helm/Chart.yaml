@@ -1,0 +1,9 @@
+apiVersion: v1
+name: nginx-deployment
+description: Exercixe Helm
+keywords:
+- nginx
+version: 1.0.0
+maintainers:
+- name: saveriogzz 
+  email: saveriogzz@xyz.com
