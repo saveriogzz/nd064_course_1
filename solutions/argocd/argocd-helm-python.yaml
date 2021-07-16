@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    namespace: default
+    namespace: provaprova
     server: https://kubernetes.default.svc
   project: default
   source:
@@ -13,5 +13,5 @@ spec:
       valueFiles:
       - values.yaml
     path: solutions/helm/python-helloworld
-    repoURL: https://github.com/udacity/nd064_course_1 
+    repoURL: https://github.com/saveriogzz/nd064_course_1 
     targetRevision: HEAD
